@@ -29,7 +29,7 @@ app.controller('appController', ['$scope', '$http', function($scope, $http) {
           "font": "open sans"
         },
         "subtitle": {
-          "text": "Graphique généré à partir des données en JSON fournies par le site avec d3pie",
+          "text": "TF1, France 2, France 3, Canal +, France 5, M6, C8, France 4, France Ô, RMC Découverte",
           "color": "#999999",
           "fontSize": 18,
           "font": "open sans"
