@@ -3,7 +3,7 @@ var app = angular.module('app', []);
 
 app.controller('appController', ['$scope', '$http', function($scope, $http) {
 
-  $http.get("https://api-equite-parole.github.io/api/2017-02-01--2017-02-26/chaines-generalistes.json").then(function(result) {
+  $http.get("https://equite-parole.github.io/api/2017-02-01--2017-02-26/chaines-generalistes.json").then(function(result) {
 
     //console.log(result);
 
