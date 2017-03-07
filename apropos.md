@@ -1,15 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /apropos/
+title: Qui sommes nous
+permalink: /qui-sommes-nous/
 ---
 
-Some information about you!
+Bastien, Floris et Yann : nous sommes des développeurs Nantais soucieux de rendre lisible et accessible à toutes et tous les données de l'équité de temps de parole concernant la présidentielle en cours. 
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
