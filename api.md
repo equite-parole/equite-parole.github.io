@@ -1,9 +1,8 @@
 ---
 layout: page
-title: API JSON
-permalink: /api/
+title: API
+permalink: /json-api/
 ---
 
-#### Temps d'antenne par candidat sur les chaînes généralistes du 1er février au 26 février 2017
 
-https://equite-parole.github.io/api/v1/2017-02-01--2017-02-26/chaines-generalistes.json 
+ <a href="/api/v1/2017-02-01--2017-02-26/chaines-generalistes.json">JSON : temps d'antenne du 1er Février au 26 Février sur les chaînes généralistes</a>

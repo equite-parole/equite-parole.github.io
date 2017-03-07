@@ -6,7 +6,7 @@ permalink: /contact/
 
 ### Nous contacter par mail
 
-Des suggestions d'améliorations, des questions ?
+Des suggestions d'améliorations, des questions, des bugs ?
 
 Vous pouvez nous envoyer un email à partir de cette page :
 

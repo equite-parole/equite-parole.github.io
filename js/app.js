@@ -29,9 +29,9 @@ app.controller('appController', ['$scope', '$http', function($scope, $http) {
           "font": "open sans"
         },
         "subtitle": {
-          "text": "Equité de temps de parole pour les candidats à la présidentielle 2017",
+          "text": "Graphique généré à partir des données en JSON fournies par le site avec d3pie",
           "color": "#999999",
-          "fontSize": 12,
+          "fontSize": 18,
           "font": "open sans"
         },
         "titleSubtitlePadding": 9
