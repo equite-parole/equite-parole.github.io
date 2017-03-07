@@ -43,13 +43,13 @@ app.controller('appController', ['$scope', '$http', function($scope, $http) {
         "location": "bottom-left"
       },
       "size": {
-        "canvasWidth":940,
+        "canvasWidth":900,
         "pieOuterRadius": "90%"
       },
       "data": data,
       "labels": {
         "outer": {
-          "pieDistance": 20
+          "pieDistance": 32
         },
         "inner": {
           "hideWhenLessThanPercentage": 3
