@@ -13,7 +13,13 @@ permalink: /sources/
 </li>
 
 <li>
-<a target="_blank" href="https://github.com/nyl-auster/equite-parole-datas">La sources du moteur de données de notre site ( sur la base des sources originales du CSA )</a>
+<a target="_blank" href="https://github.com/nyl-auster/equite-parole-datas">Dépot github des sources du traitement de données du CSA</a>
+</li>
+
+<li>
+<a target="_blank" href="https://github.com/equite-parole/equite-parole.github.io">Dépôt github de notre site.</a>
 </li>
 </ul>
+
+
 
