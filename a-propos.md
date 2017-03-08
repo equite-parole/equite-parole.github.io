@@ -1,15 +1,18 @@
 ---
 layout: page
-title: A propos de ce site
+title: Pourquoi ce site ?
 permalink: /a-propos/
 ---
 
 
-<p class="description">
-  Ce projet met à disposition de toutes et tous<strong> dans un format facile à exploiter et facile à vérifier </strong> les données du CSA concernant l'équité de temps de parole des candidats sur les chaînes de télé et radios.<br /><br/>
+<p>
+
+  Le CSA met à disposition en libre service les données sur les temps d'antenne et les temps de parole des candidats à la présidentielle 2017. Hélas le format de fichier et la manière dont ils sont découpés rend leur exploitation difficile et impose des opérations manuelles fastidieuses pour en tirer un fichier utilisable à des fins statistiques.</p>
   
-  Les formats disponibles sont des fichiers csv ainsi qu'une <a href="/json-api">API en JSON</a> pour que les développeuses & développeurs puissent créer en toute simplicité et rapidement des graphiques pour visualiser ces données.
-</p>
+  <p>Un travail laborieux de plusieurs heures qu'aujourd'hui chacun-e refait en partant de zéro de son côté.</p>
+  
+  <p>Ce projet vise à réunir au même endroit tous les fichiers sources du CSA et à en proposer une  <a href="/json-api">version JSON</a> très facile à consommer par n'importe quel site web pour créer en quelques minutes des synthèse en html / javascript. </p>
+ 
 
 <p>
   Sources :

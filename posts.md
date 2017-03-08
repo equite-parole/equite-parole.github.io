@@ -11,7 +11,7 @@ permalink: /news/
       <div class="entry">
         {{ post.excerpt }}
       </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Lire plus</a>
     </article>
   {% endfor %}
 </div>
