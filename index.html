@@ -2,8 +2,6 @@
 layout: default
 ---
 
-
-
 <div class="description" style="font-size:16px">Ce site - <a href="/sortie-du-site"> en version alpha</a> - est une initiative indépendante, citoyenne et transparente de mise à disposition de toutes et tous les données en <a href="json-api">JSON</a> et <a target="_blank" href="https://github.com/nyl-auster/equite-parole-datas/tree/master/src">CSV</a> des fichiers du <a target="_blank" href="http://www.csa.fr/Television/Le-suivi-des-programmes/Le-pluralisme-politique-et-les-campagnes-electorales/L-election-presidentielle-2017/Les-temps-de-parole-et-d-antenne">CSA</a> concernant l'équité du temps de parole et du temps d'antenne des candidats à la présidentielle 2017. Des développements pour enrichir les données disponibles et le design sont en cours. Nous serons ravis d'avoir vos retours pour nous aider à l'améliorer, n'hésitez pas à nous <a href="/contact">contacter</a>. Si l'initiative vous plaît, vous pouvez nous soutenir en partageant ce site sur votre réseau social préféré.<br /><br /></div>
 
 
@@ -11,16 +9,47 @@ layout: default
 
 <br />
 
-<div style="text-align: center"><strong>Exemple d'un graphiques généré à partir des données fournies par le site :</strong></div>
+<div class="vueApp">
+  
+  <!--
+  <div><strong>Exemple d'un graphiques généré à partir des données fournies par le site :</strong></div>
+  -->
+  
+  <!--
+  <d3-pie-chart
+    title="Seulement les chaines généralistes du 1er février au 5 mars"
+    api="/api/v1/2017-02-01--2017-02-26/chaines-generalistes.json"></d3-pie-chart>
+    -->
+  
+  <chartjs-bar
+    chart-id="chaines-generalistes"
+    api="/api/v1/2017-02-01--2017-03-05/tous-les-medias.json"
+    title="Temps d'antenne des candidats à la présidentielle 2017 - du 1er février jusqu'au 5 mars 2017"></chartjs-bar>
+  
+  <!--
+  <chartjs-bar
+    chart-id="chaines-generalistes"
+    api="/api/v1/2017-02-01--2017-02-26/chaines-generalistes.json"
+    title="Temps d'antenne des candidats à la présidentielle 2017 - du 5 février au 26 février 2017"></chartjs-bar>
+  
+  <hr />
+  -->
+  
+  <!--
+  <chartjs-bar2
+    chart-id="test2"
+    api="/api/v1/2017-02-01--2017-02-26/chaines-generalistes.json"
+    title="Tous media confondus - du 1er février jusqu'à aujourd'hui"></chartjs-bar2>
+    -->
+  
+  <!--
+  <d3-pie-chart
+    title="Tous media confondus - du 1er février jusqu'à aujourd'hui"
+    api="/api/v1/2017-02-01--2017-03-05/tous-les-medias.json"></d3-pie-chart>
+    -->
+  
 
-<d3-pie-chart
-  title="Seulement les chaines généralistes du 1er février au 5 mars"
-  api="/api/v1/2017-02-01--2017-02-26/chaines-generalistes.json"></d3-pie-chart>
-
-<d3-pie-chart
-  title="Tous media confondus - du 1er février jusqu'à aujourd'hui"
-  api="/api/v1/2017-02-01--2017-03-05/tous-les-medias.json"></d3-pie-chart>
-
+</div>
 
 
 

@@ -13,9 +13,10 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     
     
+    <!--
     <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
-    <script src="/node_modules/d3pie/d3pie/d3pie.min.js"></script>
-
+    <script src="/js/vendor/d3pie.min.js"></script>
+    -->
     
     <!--
     <script src="/js/fevrierPieApp.js"></script>
@@ -27,7 +28,7 @@
   
   <body>
     
-    <div class="wrapper" id="vueApp">
+    <div class="wrapper">
 
       
       {% include follow-us-js.html %}
@@ -79,8 +80,9 @@
       {% include analytics.html %}
   
 
-      <script src="/node_modules/vue/dist/vue.min.js"></script>
-      <script src="/node_modules/axios/dist/axios.min.js"></script>
+      <script src="/js/vendor/vue.js"></script>
+      <script src="/js/vendor/axios.min.js"></script>
+      <script src="/js/vendor/Chart.min.js"></script>
       <script src="/js/app.js"></script>
     </div>
   </body>
