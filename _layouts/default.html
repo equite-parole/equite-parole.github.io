@@ -12,57 +12,76 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
+    <script src="/node_modules/d3pie/d3pie/d3pie.min.js"></script>
+
+    
+    <!--
+    <script src="/js/fevrierPieApp.js"></script>
+    <script src="/js/cumulGLobalPieApp.js"></script>
+    -->
+    
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
   
   <body>
     
-    {% include follow-us-js.html %}
-    
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          
-          <div class="site-info">
-            <h1 class="site-name">
-              <a href="{{ site.baseurl }}/">{{ site.name }}</a><br>
-              <!--<small>Version ALPHA</small>-->
-            </h1>
-            <!--<p class="site-description">{{ site.description }}</p>-->
-          </div>
-          
-          
-          <nav>
-            <a href="{{ site.baseurl }}/">Accueil</a>
-            <a href="{{ site.baseurl }}/json-api">JSON API</a>
-            <a href="{{ site.baseurl }}/sources">Sources</a>
-            <a href="{{ site.baseurl }}/a-propos">Pourquoi ce site ?</a>
-            <a href="{{ site.baseurl }}/qui-sommes-nous">Qui sommes nous ?</a>
-            <a href="{{ site.baseurl }}/news">News</a>
-            <a href="{{ site.baseurl }}/contact">Contact</a>
-          
-          </nav>
-        </header>
+    <div class="wrapper" id="vueApp">
+
+      
+      {% include follow-us-js.html %}
+      
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead clearfix">
+            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+            
+            <div class="site-info">
+              <h1 class="site-name">
+                <a href="{{ site.baseurl }}/">{{ site.name }}</a><br>
+                <!--<small>Version ALPHA</small>-->
+              </h1>
+              <!--<p class="site-description">{{ site.description }}</p>-->
+            </div>
+            
+            
+            <nav>
+              <a href="{{ site.baseurl }}/">Accueil</a>
+              <a href="{{ site.baseurl }}/json-api">JSON API</a>
+              <a href="{{ site.baseurl }}/sources">Sources</a>
+              <a href="{{ site.baseurl }}/a-propos">Pourquoi ce site ?</a>
+              <a href="{{ site.baseurl }}/qui-sommes-nous">Qui sommes nous ?</a>
+              <a href="{{ site.baseurl }}/news">News</a>
+              <a href="{{ site.baseurl }}/contact">Contact</a>
+            
+            </nav>
+          </header>
+        </div>
       </div>
-    </div>
-    
-    <div class="container">
-      {% include follow-us.html %}
-    </div>
-    
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-    
-    <div class="wrapper-footer">
+      
       <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
+        {% include follow-us.html %}
       </div>
+      
+      <div id="main" role="main" class="container">
+        {{ content }}
+      </div>
+      
+      <div class="wrapper-footer">
+        <div class="container">
+          <footer class="footer">
+            {% include svg-icons.html %}
+          </footer>
+        </div>
+      </div>
+      
+      {% include analytics.html %}
+  
+
+      <script src="/node_modules/vue/dist/vue.min.js"></script>
+      <script src="/node_modules/axios/dist/axios.min.js"></script>
+      <script src="/js/app.js"></script>
     </div>
-    
-    {% include analytics.html %}
   </body>
 </html>
