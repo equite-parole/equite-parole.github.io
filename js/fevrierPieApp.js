@@ -1,7 +1,7 @@
 
-var app = angular.module('app', []);
+var app = angular.module('fevrierPieApp', []);
 
-app.controller('appController', ['$scope', '$http', function($scope, $http) {
+app.controller('fevrierPieAppController', ['$scope', '$http', function($scope, $http) {
 
   $http.get("https://equite-parole.github.io/api/v1/2017-02-01--2017-02-26/chaines-generalistes.json").then(function(result) {
 
