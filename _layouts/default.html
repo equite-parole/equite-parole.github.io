@@ -12,12 +12,6 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     
-    
-
-
-
-
-    
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
   
@@ -56,10 +50,6 @@
         </div>
       </div>
       
-      <div class="container">
-        {% include follow-us.html %}
-      </div>
-      
       <div id="main" role="main" class="container">
         {{ content }}
       </div>
@@ -71,9 +61,12 @@
           </footer>
         </div>
       </div>
+  
+      <div class="container">
+        {% include follow-us.html %}
+      </div>
       
       {% include analytics.html %}
-  
   
       <script src="/js/vendor/lodash.min.js"></script>
       <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
