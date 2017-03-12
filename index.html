@@ -23,17 +23,19 @@ layout: default
   
   <chartjs-bar
     chart-id="chaines-generalistes"
-    api="/api/v1/2017-02-01--2017-03-05/tous-les-medias.json"
-    title="Temps d'antenne des candidats à la présidentielle 2017 - du 1er février jusqu'au 5 mars 2017 - chaînes généralistes, chaînes d'information"></chartjs-bar>
+    api="/api/v1/2017-02-01--2017-03-05/releves-cumul-global.json"
+    title="du 1er février jusqu'au 5 mars 2017 - Temps d'antenne des candidats à la présidentielle 2017 - chaînes généralistes, chaînes d'information et radios"></chartjs-bar>
   
-  <!--
-  <chartjs-bar
-    chart-id="chaines-generalistes"
-    api="/api/v1/2017-02-01--2017-02-26/chaines-generalistes.json"
-    title="Temps d'antenne des candidats à la présidentielle 2017 - du 5 février au 26 février 2017"></chartjs-bar>
+
+  <chartjs-bar-par-chaine
+    chart-id="candidats-par-chaine"
+    api="/api/v1/2017-02-01--2017-02-26/chaines-generalistes-chaines-candidats.json"
+    title="du 1er Février au 26 Février 2017 - temps d'antenne des candidats à la présidentielle 2017 par chaîne - du 1er février jusqu'au 5 mars 2017 "
+  >
+  </chartjs-bar-par-chaine>
+
   
   <hr />
-  -->
   
   <!--
   <chartjs-bar2
@@ -45,13 +47,8 @@ layout: default
   <!--
   <d3-pie-chart
     title="Tous media confondus - du 1er février jusqu'à aujourd'hui"
-    api="/api/v1/2017-02-01--2017-03-05/tous-les-medias.json"></d3-pie-chart>
+    api="/api/v1/2017-02-01--2017-03-05/chaines-generalistes.json"></d3-pie-chart>
     -->
+    
   
-
 </div>
-
-
-
-
-

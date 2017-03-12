@@ -117,11 +117,13 @@ Vue.component('chartjs-bar', {
   props:[
     'chartId',
     'api',
-    'title'
+    'title',
+    'subtitle'
   ],
 
   template: '<div>' +
   '<h3 class="graph-title">{{title}}</h3>' +
+  '<h4 class="graph-subtitle">{{subtitle}}</h4>' +
   '<canvas id="chartId" width="400" height="300"></canvas>' +
   '</div>',
 
@@ -134,14 +136,15 @@ Vue.component('chartjs-bar', {
       var data = [];
       var backgroundColor = [];
       //console.log(response);
-      for (var key in response.data.data) {
-        data.push(response.data.data[key].total_temps_antenne.secondes);
+      for (var key in response.data) {
+        data.push(response.data[key].total_temps_antenne.secondes);
         labels.push(key);
         backgroundColor.push('#' + Math.random().toString(16).slice(2, 8).toUpperCase());
       }
 
       new Chart(ctx, {
         type: 'horizontalBar',
+        responsive:true,
         data: {
           labels: labels,
           datasets: [{
@@ -188,11 +191,13 @@ Vue.component('chartjs-bar-par-chaine', {
   props:[
     'chartId',
     'api',
-    'title'
+    'title',
+    'subtitle'
   ],
 
   template: '<div>' +
   '<h3 class="graph-title">{{title}}</h3>' +
+  '<h4 class="graph-subtitle">{{subtitle}}</h4>' +
   '<canvas id="chartId" width="400" height="300"></canvas>' +
   '</div>',
 
@@ -240,8 +245,6 @@ Vue.component('chartjs-bar-par-chaine', {
 
       }
 
-      console.log(dataset);
-
       new Chart(ctx, {
         type: 'horizontalBar',
         responsive:true,
@@ -280,7 +283,7 @@ Vue.component('chartjs-bar-par-chaine', {
 });
 
 /**
- * Vue compilera ses composants à l'intérieur de ces zoines
+ * Vue compilera ses composants à l'intérieur de ces zones
  */
 new Vue({
   el: '.vueApp'
