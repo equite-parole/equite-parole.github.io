@@ -5,6 +5,14 @@ function secondsToReadableTime(seconds) {
   return result[0] + 'h ' + result[1] + 'min ' + result[2] + 's';
 }
 
+function time_hhmmss_to_seconds(hhmmss) {
+  // your input string
+  var a = hhmmss.split(':'); // split it at the colons
+  // minutes are worth 60 seconds. Hours are worth 60 minutes.
+  var seconds = (+a[0]) * 60 * 60 + (+a[1]) * 60 + (+a[2]);
+  return seconds;
+}
+
 /**
  *
  */
@@ -120,12 +128,14 @@ Vue.component('chartjs-bar', {
   mounted: function () {
     // un getDocumentById ne fonctionnerait pas ici (je le sais, j'ai essayé)
     var ctx = this.$el.children.chartId;
+
     axios.get(this.api).then(function (response) {
       var labels = [];
       var data = [];
       var backgroundColor = [];
-      for (var key in response.data) {
-        data.push(response.data[key].total_temps_antenne.secondes);
+      //console.log(response);
+      for (var key in response.data.data) {
+        data.push(response.data.data[key].total_temps_antenne.secondes);
         labels.push(key);
         backgroundColor.push('#' + Math.random().toString(16).slice(2, 8).toUpperCase());
       }
@@ -164,6 +174,105 @@ Vue.component('chartjs-bar', {
           }
         }
       });
+    })
+
+  }
+
+});
+
+/**
+ * bar charjs
+ */
+Vue.component('chartjs-bar-par-chaine', {
+
+  props:[
+    'chartId',
+    'api',
+    'title'
+  ],
+
+  template: '<div>' +
+  '<h3 class="graph-title">{{title}}</h3>' +
+  '<canvas id="chartId" width="400" height="300"></canvas>' +
+  '</div>',
+
+  mounted: function () {
+
+    // un getDocumentById ne fonctionnerait pas ici (je le sais, j'ai essayé)
+    var ctx = this.$el.children.chartId;
+
+    axios.get(this.api).then(function (response) {
+
+      // on créer d'abord la liste total des candidats en inspectant
+      // toutes les chaines; pour pouvoir créer ensuite des datasets
+      // dont les index correspondent bien au même candidat.
+      var candidatNames = [];
+      var chaines = response.data;
+      for (var chaineName in chaines) {
+        for (var candidatName in chaines[chaineName]) {
+          if(!_.includes(candidatNames, candidatName)) {
+            candidatNames.push(candidatName);
+          }
+        }
+      }
+
+      // construction des statisques par candidat pour chaque chaine
+      var datasets = [];
+      for (var chaineName in chaines) {
+
+        var dataset = {label:chaineName, data:[], backgroundColor:[]};
+        dataset.hidden = chaineName == 'TF1' ? dataset.hidden = false : true;
+        var color = Math.random().toString(16).slice(2, 8).toUpperCase();
+
+        for (index in candidatNames) {
+
+          if (undefined !== chaines[chaineName][candidatNames[index]]) {
+            var candidatDatas = chaines[chaineName][candidatNames[index]];
+            dataset.data.push(time_hhmmss_to_seconds(candidatDatas["Total Temps d'antenne"]));
+          }
+          else {
+            dataset.data.push(0);
+          }
+          dataset.backgroundColor.push('#' + color);
+
+        }
+        datasets.push(dataset);
+
+      }
+
+      console.log(dataset);
+
+      new Chart(ctx, {
+        type: 'horizontalBar',
+        responsive:true,
+        data: {
+          labels:candidatNames,
+          datasets:datasets
+        },
+        options: {
+          legend:{
+            display:true
+          },
+          scales: {
+            xAxes: [{
+              ticks: {
+                // Create scientific notation labels
+                callback: function(value, index, values) {
+                  return secondsToReadableTime(value);
+                }
+              }
+            }]
+          },
+          tooltips: {
+            callbacks: {
+              label: function(tooltipItem) {
+                return secondsToReadableTime(tooltipItem.xLabel);
+              }
+            }
+          }
+        }
+      });
+
     })
 
   }
