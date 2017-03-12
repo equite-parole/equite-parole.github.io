@@ -135,10 +135,9 @@ Vue.component('chartjs-bar', {
       var labels = [];
       var data = [];
       var backgroundColor = [];
-      //console.log(response);
-      for (var key in response.data) {
-        data.push(response.data[key].total_temps_antenne.secondes);
-        labels.push(key);
+      for (var candidatName in response.data) {
+        data.push(response.data[candidatName].total_temps_antenne.secondes);
+        labels.push(candidatName);
         backgroundColor.push('#' + Math.random().toString(16).slice(2, 8).toUpperCase());
       }
 
@@ -171,10 +170,11 @@ Vue.component('chartjs-bar', {
           tooltips: {
             callbacks: {
               label: function(tooltipItem) {
-                return secondsToReadableTime(tooltipItem.xLabel);
+                return _.round(tooltipItem.xLabel / 60, 2) + ' minutes';
               }
             }
           }
+
         }
       });
     })
@@ -269,7 +269,7 @@ Vue.component('chartjs-bar-par-chaine', {
           tooltips: {
             callbacks: {
               label: function(tooltipItem) {
-                return secondsToReadableTime(tooltipItem.xLabel);
+                return _.round(tooltipItem.xLabel / 60, 2) + ' minutes';
               }
             }
           }
