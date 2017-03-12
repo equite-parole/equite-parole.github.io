@@ -9,11 +9,14 @@ layout: default
 
 <br />
 
+<div><strong> Ci-dessous des exemples de graphiques générés à partir des données fournies par le site :</strong></div>
+
+<br />
+<em>"Le temps d’antenne comprend le temps de parole d’un candidat, les interventions de soutien à sa candidature et l’ensemble des séquences qui lui sont consacrées, si celles-ci ne lui sont pas explicitement défavorables. "<a href="http://www.csa.fr/Television/Le-suivi-des-programmes/Le-pluralisme-politique-et-les-campagnes-electorales/L-election-presidentielle-2017/Les-notions-a-connaitre" target="_blank">
+  Site du CSA.
+</a></em>
+
 <div class="vueApp">
-  
-  <!--
-  <div><strong>Exemple d'un graphiques généré à partir des données fournies par le site :</strong></div>
-  -->
   
   <!--
   <d3-pie-chart
@@ -24,7 +27,7 @@ layout: default
   <chartjs-bar
     chart-id="chaines-generalistes"
     api="/api/v1/2017-02-01--2017-02-26/chaines-generalistes.json"
-    title="du 1er février jusqu'au 26 Février 2017 - Temps d'antenne des candidats à la présidentielle 2017 - chaînes généralistes"></chartjs-bar>
+    title="du 1er février jusqu'au 26 Février 2017 - Temps d'antenne des candidats à la présidentielle 2017 - chaînes généralistes uniquement"></chartjs-bar>
   
   <chartjs-bar-par-chaine
     chart-id="candidats-par-chaine"
@@ -32,9 +35,7 @@ layout: default
     title="du 1er Février au 26 Février 2017 - temps d'antenne des candidats à la présidentielle 2017 par chaîne - du 1er février jusqu'au 5 mars 2017 "
   >
   </chartjs-bar-par-chaine>
-
   
-  <hr />
   
   <!--
   <chartjs-bar2
@@ -48,6 +49,6 @@ layout: default
     title="Tous media confondus - du 1er février jusqu'à aujourd'hui"
     api="/api/v1/2017-02-01--2017-03-05/chaines-generalistes.json"></d3-pie-chart>
     -->
-    
-  
+
+
 </div>
