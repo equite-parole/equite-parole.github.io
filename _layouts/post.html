@@ -10,8 +10,14 @@ layout: default
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Écrit le {{ page.date | date: "%e/%m/%Y" }}
   </div>
 
   {% include disqus.html %}
 </article>
+
+<ul>
+  {% for tags in page.tags %}
+  <li>{{ tags }}</li>
+  {% endfor %}
+</ul>

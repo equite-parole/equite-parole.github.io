@@ -11,6 +11,9 @@ description: Initiative indépendante citoyenne et transparente de mise à dispo
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/chrono-check.svg
 
+collections:
+- graphiques
+
 #
 # Flags below are optional
 #
