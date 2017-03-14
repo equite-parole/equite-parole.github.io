@@ -1,7 +1,7 @@
 ---
 layout: page
-title: News
-permalink: /news/
+title: Post
+permalink: /posts/
 ---
 
 <div class="posts">
