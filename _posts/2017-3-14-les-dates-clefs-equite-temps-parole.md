@@ -13,4 +13,4 @@ Ci-dessous <a target="_blank" href="http://www.csa.fr/Television/Le-suivi-des-pr
 
 <div style="text-align:center">
 <img alt="pluralisme en période électorale" src="/images/pluralisme-en-periode-electorale.jpg" />
-</a>
+
