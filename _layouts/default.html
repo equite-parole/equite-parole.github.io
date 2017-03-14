@@ -16,58 +16,44 @@
   </head>
   
   <body>
-    
-    <div class="wrapper">
-      
-      {% include follow-us-js.html %}
-      
-      <div class="wrapper-masthead">
-        <div class="container">
-          <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-            
-            <div class="site-info">
-              <h1 class="site-name">
-                <a href="{{ site.baseurl }}/">{{ site.name }}</a><br>
-                <!--<small>Version ALPHA</small>-->
-              </h1>
-              <!--<p class="site-description">{{ site.description }}</p>-->
-            </div>
-            
-            
-            <nav>
-              <a href="{{ site.baseurl }}/">Accueil</a>
-              <a href="{{ site.baseurl }}/json-api">JSON API</a>
-              <a href="{{ site.baseurl }}/sources">Sources</a>
-              <a href="{{ site.baseurl }}/a-propos">Pourquoi ce site ?</a>
-              <a href="{{ site.baseurl }}/qui-sommes-nous">Qui sommes nous ?</a>
-              <a href="{{ site.baseurl }}/posts">Blog</a>
-              <a href="{{ site.baseurl }}/contact">Contact</a>
-            </nav>
-          </header>
-        </div>
-      </div>
-      
-      <div id="main" role="main" class="container">
-        {{ content }}
-      </div>
-  
+    <div class="wrapper-masthead">
       <div class="container">
-        {% include follow-us.html %}
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          
+          <div class="site-info">
+            <h1 class="site-name">
+              <a href="{{ site.baseurl }}/">{{ site.name }}</a><br>
+            </h1>
+            <!--<p class="site-description">{{ site.description }}</p>-->
+          </div>
+          
+          {% include menu-main.html %}
+        
+        </header>
       </div>
-      
-      <div class="wrapper-footer">
-        <div class="container">
-          <footer class="footer">
-            {% include svg-icons.html %}
-          </footer>
-        </div>
-      </div>
-      
-      {% include js-footer.html %}
-  
-      {% include analytics.html %}
-      
     </div>
+    
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+    
+    <div class="container">
+      {% include follow-us.html %}
+    </div>
+    
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+    
+    {% include js-footer.html %}
+    
+    {% include analytics.html %}
+  
+  
   </body>
 </html>

@@ -1,0 +1,23 @@
+# Les liens du menu principal du site
+# au format "/contact/" pour les href
+
+- title: Accueil
+  href: /
+
+- title: JSON API
+  href: /json-api/
+
+- title: Sources
+  href: /sources/
+
+- title: Pourquoi ce site ?
+  href: /a-propos/
+
+- title: Qui sommes nous ?
+  href: /qui-sommes-nous/
+
+- title: Blog
+  href: /posts/
+
+- title: Contact
+  href: /contact/

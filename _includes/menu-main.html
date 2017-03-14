@@ -1,0 +1,13 @@
+{% comment %}
+  voir _data/menu-main.yml
+{% endcomment %}
+
+<nav>
+{% for link in site.data.menu-main %}
+  {% if page.url == link.href %}
+    <a class="active" href="{{link.href}}" class="active">{{link.title}}</a>
+  {% else %}
+    <a href="{{link.href}}">{{link.title}}</a>
+  {% endif %}
+{% endfor %}
+</nav>

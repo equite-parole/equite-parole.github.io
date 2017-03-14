@@ -234,7 +234,14 @@ nav {
       margin: 0 10px;
       color: $blue;
     }
+
   }
+
+  a.active {
+    color: $blue;
+    font-weight:500;
+  }
+
 }
 
 //
