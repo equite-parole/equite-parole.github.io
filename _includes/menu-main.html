@@ -4,7 +4,7 @@
 
 <nav>
 {% for link in site.data.menu-main %}
-  {% if page.url == link.href %}
+  {% if page.url contains link.href %}
     <a class="active" href="{{link.href}}" class="active">{{link.title}}</a>
   {% else %}
     <a href="{{link.href}}">{{link.title}}</a>
