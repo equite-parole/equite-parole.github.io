@@ -11,8 +11,12 @@ description: Initiative indépendante citoyenne et transparente de mise à dispo
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/chrono-check.svg
 
+# créer des collections custom, à la manière des "posts"
+# "output: true" indique à jekyll de générer une page html individuelle
+# sinon par défaut les items de collections ne seront pas accesible par url
 collections:
-- graphiques
+  graphiques:
+    output: true
 
 #
 # Flags below are optional
