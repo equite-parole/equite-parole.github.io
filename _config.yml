@@ -92,3 +92,15 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+prose:
+  rooturl: '_pages'
+  siteurl: 'https://equite-parole.github.io'
+  media: images
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          element: "text"
+          label: "title"
+
