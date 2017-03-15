@@ -28,10 +28,10 @@ include:
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: yann.boisselier+equitetempsdeparole@gmail.com
+  #email: yann.boisselier+equitetempsdeparole@gmail.com
   facebook: equitetempsdeparole
   flickr:
-  github: equite-parole.github.io
+  github: equite-parole/equite-parole.github.io
   instagram:
   linkedin:
   pinterest:
