@@ -94,7 +94,9 @@ exclude:
   - CNAME
 
 prose:
-  rooturl: '_pages'
+  rooturl:
+    - '_pages'
+    - '_posts'
   siteurl: 'https://equite-parole.github.io'
   media: images
   metadata:
