@@ -18,6 +18,10 @@ collections:
   graphiques:
     output: true
 
+# indiquer à Jekkyl d'aller chercher nos page statiques dans le sous-dossier page
+include:
+  - _pages
+
 #
 # Flags below are optional
 #
