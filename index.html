@@ -2,19 +2,17 @@
 layout: default
 ---
 
-<div class="description" style="font-size:16px">Ce site - <a href="/sortie-du-site"> encore en version alpha</a> - est une initiative indépendante, citoyenne et transparente de mise à disposition de toutes et tous les données en <a href="json-api">JSON</a> et <a target="_blank" href="https://github.com/nyl-auster/equite-parole-datas/tree/master/src">CSV</a> des fichiers du <a target="_blank" href="http://www.csa.fr/Television/Le-suivi-des-programmes/Le-pluralisme-politique-et-les-campagnes-electorales/L-election-presidentielle-2017/Les-temps-de-parole-et-d-antenne">CSA</a> concernant <strong>l'équité du temps de parole et du temps d'antenne des candidats à la présidentielle 2017</strong>. Les données sont enrichies au fil des jours. Pour toute question, suggestion ou nous signaler un bogue, <a href="/contact">contactez-nous ici</a>.  <br /><br /></div>
+<p>
+  Le CSA met à disposition des données ouvertes sur les temps d'antenne et les temps de parole des candidats à la présidentielle; <strong>hélas d'une manière qui rend leur récupération puis leur traitement très fastidieux et chronophage pour les citoyens et journalistes </strong> ( nombreux fichiers à rassembler, formats de fichiers  différents et qui varient au fil du temps etc ...) </p>
 
+<p>Ce site ( en version bêta ) télécharge automatiquement depuis le site du CSA les dizaines de fichiers à récupérer, puis les traite automatiquement de manière à les rendre directement exploitables en <strong>JSON</strong> sans avoir à faire de manipulation laborieuse, en calculant pour vous les totaux selon les périodes pour chaque candidat. </p>
+
+<div class="call-to-action">
+  <a href="/json-api/" class="call-to-action__button">Accéder à nos données ouvertes</a>
+</div>
 
 <blockquote><em>Équité : Qualité consistant à attribuer à chacun ce qui lui est dû par référence aux principes de la justice naturelle ; impartialité <a target="_blank" href="http://www.larousse.fr/dictionnaires/francais/%C3%A9quit%C3%A9/30712?q=%C3%A9quit%C3%A9#30627"> ( dictionnaire Larousse )</a></em></blockquote>
 
-<br />
-
-<div><strong> Ci-dessous des exemples de graphiques générés à partir des données fournies par le site</strong></div>
-
-<br />
-<em>"Le temps d’antenne comprend le temps de parole d’un candidat, les interventions de soutien à sa candidature et l’ensemble des séquences qui lui sont consacrées, si celles-ci ne lui sont pas explicitement défavorables. "<a href="http://www.csa.fr/Television/Le-suivi-des-programmes/Le-pluralisme-politique-et-les-campagnes-electorales/L-election-presidentielle-2017/Les-notions-a-connaitre" target="_blank">
-  Site du CSA.
-</a></em>
 
 <div class="vueApp">
   
@@ -26,6 +24,12 @@ layout: default
   
   <chartjs-bar
     chart-id="chaines-generalistes"
+    api="/api/v1/2017-03-05--2017-03-12/releves-par-candidats.json"
+    title="du 03 Mars au 12 Mars - Temps d'antenne des candidats à la présidentielle 2017 - tous medias confondus"></chartjs-bar>
+  
+  <!--
+  <chartjs-bar
+    chart-id="chaines-generalistes"
     api="/api/v1/2017-02-01--2017-02-26/chaines-generalistes.json"
     title="du 1er février jusqu'au 26 Février 2017 - Temps d'antenne des candidats à la présidentielle 2017 - chaînes généralistes uniquement"></chartjs-bar>
   
@@ -34,7 +38,11 @@ layout: default
     api="/api/v1/2017-02-01--2017-02-26/chaines-generalistes-chaines-candidats.json"
     title="du 1er Février au 26 Février 2017 - temps d'antenne des candidats à la présidentielle 2017 par chaîne - du 1er février jusqu'au 5 mars 2017 "
   >
+  
   </chartjs-bar-par-chaine>
+  -->
+  
+  
   
   
   <!--

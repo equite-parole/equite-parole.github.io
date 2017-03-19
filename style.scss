@@ -314,6 +314,25 @@ footer {
   font-size:15px;
 }
 
+.call-to-action {
+  text-align: center;
+}
+
+.call-to-action__button {
+  border-radius: 5px;
+  text-transform: uppercase;
+  display:inline-block;
+  background:$blue;
+  padding:20px;
+  color:white;
+  margin:20px;
+}
+
+.call-to-action__button:hover {
+  background: lighten($blue, 5%);
+  color:white;
+}
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
