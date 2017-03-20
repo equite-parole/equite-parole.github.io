@@ -132,17 +132,44 @@ Vue.component('chartjs-bar', {
   '</div>',
 
   mounted: function () {
+
     // un getDocumentById ne fonctionnerait pas ici (je le sais, j'ai essayé)
     var ctx = this.$el.children.chartId;
 
+    var self = this;
     axios.get(this.api).then(function (response) {
+
       var labels = [];
-      var data = [];
-      var backgroundColor = [];
+      var dataset1 = {
+        label:"Temps de parole du candidat et de ses soutiens",
+        data:[],
+        backgroundColor:"#5472AE"
+      };
+      var dataset2 = {
+        label:"Temps d'antenne sans paroles du candidat ou de ses soutiens",
+        data:[],
+        backgroundColor:'#77B5FE'
+      };
+
       for (var candidatName in response.data) {
-        data.push(response.data[candidatName].total_temps_antenne.secondes);
+
         labels.push(candidatName);
-        backgroundColor.push('#' + Math.random().toString(16).slice(2, 8).toUpperCase());
+
+        var total_paroles = response.data[candidatName].total_temps_de_parole.secondes;
+        var total_antenne = response.data[candidatName].total_temps_antenne.secondes;
+
+        // le dataset1 sera le temps de parole (du candidat ET de ses soutiens)
+        dataset1.data.push(total_paroles);
+
+        // le dataset2 sera le temps d'antenne mois le temps de parole.
+        // Ce sont les séquences d'antenne sans parole du candidat ou de ses soutiens
+        var total_antenne_sans_parole = total_antenne - total_paroles;
+        if (total_antenne_sans_parole < 0) {
+          console.log(self.title + " : " + candidatName + "temps d'antenne inférieur au temps de parole détecté : " + total_antenne_sans_parole);
+          total_antenne_sans_parole = 0;
+        }
+        dataset2.data.push(total_antenne_sans_parole);
+
       }
 
       new Chart(ctx, {
@@ -150,25 +177,25 @@ Vue.component('chartjs-bar', {
         responsive:true,
         data: {
           labels: labels,
-          datasets: [{
-            data: data,
-            backgroundColor: backgroundColor,
-            borderColor: backgroundColor,
-            borderWidth: 1
-          }]
+          datasets: [dataset1, dataset2]
         },
         options: {
           legend:{
-            display:false
+            display:true,
+            position:"top"
           },
           scales: {
             xAxes: [{
+              stacked: true,
               ticks: {
                 // Create scientific notation labels
                 callback: function(value, index, values) {
                   return secondsToHours(value) + ' h';
                 }
               }
+            }],
+            yAxes: [{
+              stacked: true
             }]
           },
           tooltips: {
@@ -215,7 +242,7 @@ Vue.component('chartjs-bar-hebdos', {
       self.periodes = response.data.periodes;
       var periodesArray = [];
       for (periode in self.periodes) {
-         periodesArray.push(self.periodes[periode]);
+        periodesArray.push(self.periodes[periode]);
       }
       self.periodes = periodesArray.reverse();
       for (periode in self.periodes) {
