@@ -5,6 +5,10 @@ function secondsToReadableTime(seconds) {
   return result[0] + 'h ' + result[1] + 'min ' + result[2] + 's';
 }
 
+function secondsToHours(seconds) {
+  return _.round(seconds / 3600, 1);
+}
+
 function time_hhmmss_to_seconds(hhmmss) {
   // your input string
   var a = hhmmss.split(':'); // split it at the colons
@@ -162,7 +166,7 @@ Vue.component('chartjs-bar', {
               ticks: {
                 // Create scientific notation labels
                 callback: function(value, index, values) {
-                  return secondsToReadableTime(value);
+                  return secondsToHours(value) + ' h';
                 }
               }
             }]
@@ -170,7 +174,7 @@ Vue.component('chartjs-bar', {
           tooltips: {
             callbacks: {
               label: function(tooltipItem) {
-                return _.round(tooltipItem.xLabel / 60, 2) + ' minutes';
+                return secondsToHours(tooltipItem.xLabel) + ' heures';
               }
             }
           }
@@ -301,7 +305,7 @@ Vue.component('chartjs-bar-par-chaine', {
               ticks: {
                 // Create scientific notation labels
                 callback: function(value, index, values) {
-                  return secondsToReadableTime(value);
+                  return secondsToHours(value);
                 }
               }
             }]
