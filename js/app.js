@@ -184,6 +184,46 @@ Vue.component('chartjs-bar', {
 });
 
 /**
+ * Afficher l'ensemble des graphiques hebdomadaires automatiquement
+ */
+Vue.component('chartjs-bar-hebdos', {
+
+  data: function() {
+    return {
+      periodes:[]
+    }
+  },
+
+  template: '<div>' +
+  ' <div v-for="periode in periodes">' +
+  ' <!--<a :href="periode.api">JSON source</a>-->' +
+  ' <chartjs-bar' +
+  ' chart-id="chaines-generalistes"' +
+  ' :api="periode.api"' +
+  ' :title="periode.text">' +
+  ' </chartjs-bar>' +
+  ' </div>' +
+  ' </div>',
+
+  created: function () {
+    var self = this;
+    axios.get("/api/v1/releves-hebdomadaires-metadonnees.json").then(function (response) {
+      self.periodes = response.data.periodes;
+      var periodesArray = [];
+      for (periode in self.periodes) {
+         periodesArray.push(self.periodes[periode]);
+      }
+      self.periodes = periodesArray.reverse();
+      for (periode in self.periodes) {
+        self.periodes[periode].text = "Temps d'antenne des candidats à la présidentielle 2017 - du " + self.periodes[periode].text;
+        self.periodes[periode].api = "/api/v1/" + self.periodes[periode].folder + "/releves-par-candidats.json";
+      };
+    });
+  }
+
+});
+
+/**
  * bar charjs
  */
 Vue.component('chartjs-bar-par-chaine', {
