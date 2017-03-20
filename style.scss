@@ -333,6 +333,24 @@ footer {
   color:white;
 }
 
+table.table caption {
+  text-transform: uppercase;
+  padding:10px;
+}
+
+table.table {
+  border:solid silver 1px;
+}
+
+table.table th {
+  font-weight:bold
+}
+
+table.table td, table.table th {
+  padding:10px;
+  border:solid silver 1px;
+}
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
