@@ -146,7 +146,7 @@ Vue.component('chartjs-bar', {
         backgroundColor:"#5472AE"
       };
       var dataset2 = {
-        label:"Temps d'antenne sans paroles du candidat ou de ses soutiens",
+        label:"Temps d'antenne SANS paroles du candidat ou de ses soutiens",
         data:[],
         backgroundColor:'#77B5FE'
       };
