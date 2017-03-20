@@ -141,12 +141,12 @@ Vue.component('chartjs-bar', {
 
       var labels = [];
       var dataset1 = {
-        label:"Temps de parole du candidat et de ses soutiens",
+        label:"Temps de parole ( candidat + ses soutiens )",
         data:[],
         backgroundColor:"#5472AE"
       };
       var dataset2 = {
-        label:"Temps d'antenne SANS paroles du candidat ou de ses soutiens",
+        label:"Temps d'antenne SANS temps de parole",
         data:[],
         backgroundColor:'#77B5FE'
       };
