@@ -128,7 +128,7 @@ Vue.component('chartjs-bar', {
   template: '<div>' +
   '<h3 class="graph-title">{{title}}</h3>' +
   '<h4 class="graph-subtitle">{{subtitle}}</h4>' +
-  '<canvas id="chartId" width="400" height="300"></canvas>' +
+  '<canvas id="chartId" width="400" height="350"></canvas>' +
   '</div>',
 
   mounted: function () {
