@@ -246,7 +246,7 @@ Vue.component('chartjs-bar-hebdos', {
       }
       self.periodes = periodesArray.reverse();
       for (periode in self.periodes) {
-        self.periodes[periode].text = "Temps d'antenne des candidats à la présidentielle 2017 - du " + self.periodes[periode].text;
+        self.periodes[periode].text = "Temps de parole et d'antenne des candidats à la présidentielle 2017 - du " + self.periodes[periode].text;
         self.periodes[periode].api = "/api/v1/" + self.periodes[periode].folder + "/releves-par-candidats.json";
       };
     });
