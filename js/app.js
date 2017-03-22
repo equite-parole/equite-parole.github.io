@@ -354,6 +354,129 @@ Vue.component('chartjs-bar-par-chaine', {
 });
 
 /**
+ * bar charjs
+ */
+Vue.component('bubbles', {
+
+  props:[
+    'chartId',
+    'api',
+    'title',
+    'subtitle'
+  ],
+
+  template: '<div>' +
+  '<h3 class="graph-title">{{title}}</h3>' +
+  '<h4 class="graph-subtitle">{{subtitle}}</h4>' +
+  '<canvas id="chartId" width="400" height="350"></canvas>' +
+  '</div>',
+
+  mounted: function () {
+
+    // un getDocumentById ne fonctionnerait pas ici (je le sais, j'ai essayé)
+    var ctx = this.$el.children.chartId;
+
+    var self = this;
+    axios.get(this.api).then(function (response) {
+
+      console.log(response.data);
+
+      var dataset = {
+        label:'test bubble',
+        data:[],
+        backgroundColor:"#ADD8E6",
+        hoverBackgroundColor: "#FF6384"
+      };
+
+      // on a d'abord besoin de construire la liste totale de tous les candidats
+      var candidats = [];
+      for (var chaineName in response.data) {
+        for (var candidatName in response.data[chaineName]) {
+          candidats[candidatName] = candidatName;
+        }
+      }
+
+      var indexChaine = 0;
+      var mappingIndexCandidat = [];
+      var mappingIndexChaine = [];
+      for (var chaineName in response.data) {
+
+        indexChaine++;
+        mappingIndexChaine[indexChaine] = chaineName;
+
+        var indexCandidat = 0;
+
+        for (var candidatName in candidats) {
+          indexCandidat++;
+
+          data = {};
+          data.x = indexChaine;
+          data.y = indexCandidat;
+          if (response.data[chaineName][candidatName]) {
+            data.r = response.data[chaineName][candidatName].total_temps_de_parole / 500
+          }
+          else {
+            data.r = 0
+          }
+          mappingIndexCandidat[indexCandidat] = {};
+          mappingIndexCandidat[indexCandidat] = candidatName;
+
+          dataset.data.push(data);
+        }
+      }
+
+      chartOptions = {
+        type: 'bubble',
+        data: {
+          datasets:[dataset]
+        },
+        //data:data,
+        options: {
+          legend:{
+            display:true,
+            position:"top"
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                maxTicksLimit:mappingIndexCandidat.length,
+                callback: function(value) {
+                  return mappingIndexCandidat[value];
+                },
+                autoSkip: false
+              }
+            }],
+            xAxes: [{
+              ticks: {
+                autoSkip: false,
+                maxTicksLimit:mappingIndexChaine.length,
+                callback: function(value) {
+                  return mappingIndexChaine[value];
+                }
+              }
+            }]
+          },
+          tooltips: {
+            callbacks: {
+              label: function(tooltipItem) {
+                console.log(tooltipItem.yLabel);
+                return mappingIndexCandidat[tooltipItem.yLabel];
+              }
+            }
+          }
+        }
+      };
+
+      console.log(chartOptions);
+      new Chart(ctx, chartOptions);
+
+    })
+
+  }
+
+});
+
+/**
  * Vue compilera ses composants à l'intérieur de ces zones
  */
 new Vue({

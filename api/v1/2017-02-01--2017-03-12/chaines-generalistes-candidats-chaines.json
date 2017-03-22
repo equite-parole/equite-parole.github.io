@@ -1,0 +1,1133 @@
+{
+  "ALLIOT MARIE MICHELE": {
+    "TF1": {
+      "candidat": 16,
+      "soutiens": 0,
+      "total_temps_de_parole": 16,
+      "antenne": 9,
+      "total_temps_antenne": 25
+    },
+    "FRANCE 2": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 6,
+      "total_temps_antenne": 6
+    },
+    "C+": {
+      "candidat": 56,
+      "soutiens": 0,
+      "total_temps_de_parole": 56,
+      "antenne": 0,
+      "total_temps_antenne": 56
+    },
+    "FRANCE 5": {
+      "candidat": 821,
+      "soutiens": 0,
+      "total_temps_de_parole": 821,
+      "antenne": 11,
+      "total_temps_antenne": 832
+    },
+    "C8": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 2,
+      "total_temps_antenne": 2
+    },
+    "TMC": {
+      "candidat": 72,
+      "soutiens": 0,
+      "total_temps_de_parole": 72,
+      "antenne": 286,
+      "total_temps_antenne": 358
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 23,
+      "soutiens": 0,
+      "total_temps_de_parole": 23,
+      "antenne": 0,
+      "total_temps_antenne": 23
+    }
+  },
+  "ARTHAUD NATHALIE": {
+    "TF1": {
+      "candidat": 31,
+      "soutiens": 19,
+      "total_temps_de_parole": 50,
+      "antenne": 74,
+      "total_temps_antenne": 124
+    },
+    "FRANCE 2": {
+      "candidat": 1606,
+      "soutiens": 0,
+      "total_temps_de_parole": 1606,
+      "antenne": 2,
+      "total_temps_antenne": 1608
+    },
+    "FRANCE 3": {
+      "candidat": 52,
+      "soutiens": 91,
+      "total_temps_de_parole": 143,
+      "antenne": 189,
+      "total_temps_antenne": 332
+    },
+    "C+": {
+      "candidat": 51,
+      "soutiens": 0,
+      "total_temps_de_parole": 51,
+      "antenne": 38,
+      "total_temps_antenne": 89
+    },
+    "FRANCE 5": {
+      "candidat": 393,
+      "soutiens": 18,
+      "total_temps_de_parole": 411,
+      "antenne": 137,
+      "total_temps_antenne": 548
+    },
+    "M6": {
+      "candidat": 28,
+      "soutiens": 0,
+      "total_temps_de_parole": 28,
+      "antenne": 31,
+      "total_temps_antenne": 59
+    },
+    "C8": {
+      "candidat": 132,
+      "soutiens": 21,
+      "total_temps_de_parole": 153,
+      "antenne": 164,
+      "total_temps_antenne": 317
+    },
+    "TMC": {
+      "candidat": 43,
+      "soutiens": 0,
+      "total_temps_de_parole": 43,
+      "antenne": 8,
+      "total_temps_antenne": 51
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 459,
+      "soutiens": 0,
+      "total_temps_de_parole": 459,
+      "antenne": 0,
+      "total_temps_antenne": 459
+    }
+  },
+  "ASSELINEAU FRANCOIS": {
+    "TF1": {
+      "candidat": 39,
+      "soutiens": 2,
+      "total_temps_de_parole": 41,
+      "antenne": 117,
+      "total_temps_antenne": 158
+    },
+    "FRANCE 2": {
+      "candidat": 4,
+      "soutiens": 0,
+      "total_temps_de_parole": 4,
+      "antenne": 29,
+      "total_temps_antenne": 33
+    },
+    "FRANCE 3": {
+      "candidat": 61,
+      "soutiens": 0,
+      "total_temps_de_parole": 61,
+      "antenne": 155,
+      "total_temps_antenne": 216
+    },
+    "FRANCE 5": {
+      "candidat": 324,
+      "soutiens": 0,
+      "total_temps_de_parole": 324,
+      "antenne": 1410,
+      "total_temps_antenne": 1734
+    },
+    "M6": {
+      "candidat": 50,
+      "soutiens": 11,
+      "total_temps_de_parole": 61,
+      "antenne": 139,
+      "total_temps_antenne": 200
+    },
+    "C8": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 17,
+      "total_temps_antenne": 17
+    },
+    "TMC": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 13,
+      "total_temps_antenne": 13
+    },
+    "FRANCEO": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 26,
+      "total_temps_antenne": 26
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 7,
+      "soutiens": 18,
+      "total_temps_de_parole": 25,
+      "antenne": 164,
+      "total_temps_antenne": 189
+    }
+  },
+  "BAYROU FRANCOIS": {
+    "TF1": {
+      "candidat": 6,
+      "soutiens": 0,
+      "total_temps_de_parole": 6,
+      "antenne": 26,
+      "total_temps_antenne": 32
+    },
+    "FRANCE 2": {
+      "candidat": 3584,
+      "soutiens": 0,
+      "total_temps_de_parole": 3584,
+      "antenne": 567,
+      "total_temps_antenne": 4151
+    },
+    "FRANCE 3": {
+      "candidat": 1488,
+      "soutiens": 31,
+      "total_temps_de_parole": 1519,
+      "antenne": 202,
+      "total_temps_antenne": 1721
+    },
+    "C+": {
+      "candidat": 6,
+      "soutiens": 0,
+      "total_temps_de_parole": 6,
+      "antenne": 22,
+      "total_temps_antenne": 28
+    },
+    "FRANCE 5": {
+      "candidat": 196,
+      "soutiens": 0,
+      "total_temps_de_parole": 196,
+      "antenne": 565,
+      "total_temps_antenne": 761
+    },
+    "M6": {
+      "candidat": 13,
+      "soutiens": 40,
+      "total_temps_de_parole": 53,
+      "antenne": 80,
+      "total_temps_antenne": 133
+    },
+    "C8": {
+      "candidat": 31,
+      "soutiens": 0,
+      "total_temps_de_parole": 31,
+      "antenne": 217,
+      "total_temps_antenne": 248
+    },
+    "TMC": {
+      "candidat": 132,
+      "soutiens": 0,
+      "total_temps_de_parole": 132,
+      "antenne": 169,
+      "total_temps_antenne": 301
+    },
+    "NT1": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 6,
+      "total_temps_antenne": 6
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 73,
+      "soutiens": 0,
+      "total_temps_de_parole": 73,
+      "antenne": 609,
+      "total_temps_antenne": 682
+    }
+  },
+  "CHEMINADE JACQUES": {
+    "TF1": {
+      "candidat": 19,
+      "soutiens": 0,
+      "total_temps_de_parole": 19,
+      "antenne": 17,
+      "total_temps_antenne": 36
+    },
+    "FRANCE 2": {
+      "candidat": 28,
+      "soutiens": 5,
+      "total_temps_de_parole": 33,
+      "antenne": 64,
+      "total_temps_antenne": 97
+    },
+    "FRANCE 3": {
+      "candidat": 10,
+      "soutiens": 0,
+      "total_temps_de_parole": 10,
+      "antenne": 14,
+      "total_temps_antenne": 24
+    },
+    "C+": {
+      "candidat": 15,
+      "soutiens": 0,
+      "total_temps_de_parole": 15,
+      "antenne": 0,
+      "total_temps_antenne": 15
+    },
+    "M6": {
+      "candidat": 21,
+      "soutiens": 0,
+      "total_temps_de_parole": 21,
+      "antenne": 30,
+      "total_temps_antenne": 51
+    },
+    "C8": {
+      "candidat": 45,
+      "soutiens": 21,
+      "total_temps_de_parole": 66,
+      "antenne": 163,
+      "total_temps_antenne": 229
+    }
+  },
+  "DUPONT AIGNAN NICOLAS": {
+    "TF1": {
+      "candidat": 407,
+      "soutiens": 46,
+      "total_temps_de_parole": 453,
+      "antenne": 202,
+      "total_temps_antenne": 655
+    },
+    "FRANCE 2": {
+      "candidat": 2579,
+      "soutiens": 0,
+      "total_temps_de_parole": 2579,
+      "antenne": 106,
+      "total_temps_antenne": 2685
+    },
+    "FRANCE 3": {
+      "candidat": 863,
+      "soutiens": 0,
+      "total_temps_de_parole": 863,
+      "antenne": 55,
+      "total_temps_antenne": 918
+    },
+    "C+": {
+      "candidat": 170,
+      "soutiens": 0,
+      "total_temps_de_parole": 170,
+      "antenne": 25,
+      "total_temps_antenne": 195
+    },
+    "FRANCE 5": {
+      "candidat": 1044,
+      "soutiens": 0,
+      "total_temps_de_parole": 1044,
+      "antenne": 686,
+      "total_temps_antenne": 1730
+    },
+    "M6": {
+      "candidat": 67,
+      "soutiens": 0,
+      "total_temps_de_parole": 67,
+      "antenne": 73,
+      "total_temps_antenne": 140
+    },
+    "C8": {
+      "candidat": 134,
+      "soutiens": 0,
+      "total_temps_de_parole": 134,
+      "antenne": 363,
+      "total_temps_antenne": 497
+    },
+    "TMC": {
+      "candidat": 452,
+      "soutiens": 0,
+      "total_temps_de_parole": 452,
+      "antenne": 475,
+      "total_temps_antenne": 927
+    },
+    "FRANCEO": {
+      "candidat": 23,
+      "soutiens": 0,
+      "total_temps_de_parole": 23,
+      "antenne": 0,
+      "total_temps_antenne": 23
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 478,
+      "soutiens": 15,
+      "total_temps_de_parole": 493,
+      "antenne": 137,
+      "total_temps_antenne": 630
+    }
+  },
+  "FILLON FRANCOIS": {
+    "TF1": {
+      "candidat": 973,
+      "soutiens": 1141,
+      "total_temps_de_parole": 2114,
+      "antenne": 5748,
+      "total_temps_antenne": 7862
+    },
+    "FRANCE 2": {
+      "candidat": 5287,
+      "soutiens": 10829,
+      "total_temps_de_parole": 16116,
+      "antenne": 10790,
+      "total_temps_antenne": 26906
+    },
+    "FRANCE 3": {
+      "candidat": 2067,
+      "soutiens": 3241,
+      "total_temps_de_parole": 5308,
+      "antenne": 5647,
+      "total_temps_antenne": 10955
+    },
+    "C+": {
+      "candidat": 344,
+      "soutiens": 1708,
+      "total_temps_de_parole": 2052,
+      "antenne": 1927,
+      "total_temps_antenne": 3979
+    },
+    "FRANCE 5": {
+      "candidat": 4048,
+      "soutiens": 9061,
+      "total_temps_de_parole": 13109,
+      "antenne": 76193,
+      "total_temps_antenne": 2902
+    },
+    "M6": {
+      "candidat": 892,
+      "soutiens": 654,
+      "total_temps_de_parole": 1546,
+      "antenne": 5573,
+      "total_temps_antenne": 7119
+    },
+    "C8": {
+      "candidat": 1201,
+      "soutiens": 4003,
+      "total_temps_de_parole": 5204,
+      "antenne": 12423,
+      "total_temps_antenne": 17627
+    },
+    "TMC": {
+      "candidat": 911,
+      "soutiens": 3805,
+      "total_temps_de_parole": 4716,
+      "antenne": 9855,
+      "total_temps_antenne": 14571
+    },
+    "NT1": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 212,
+      "total_temps_antenne": 212
+    },
+    "FRANCEO": {
+      "candidat": 277,
+      "soutiens": 1101,
+      "total_temps_de_parole": 1378,
+      "antenne": 450,
+      "total_temps_antenne": 1828
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 972,
+      "soutiens": 4622,
+      "total_temps_de_parole": 5594,
+      "antenne": 8012,
+      "total_temps_antenne": 13606
+    }
+  },
+  "HAMON BENOIT": {
+    "TF1": {
+      "candidat": 899,
+      "soutiens": 247,
+      "total_temps_de_parole": 1146,
+      "antenne": 1145,
+      "total_temps_antenne": 2291
+    },
+    "FRANCE 2": {
+      "candidat": 10697,
+      "soutiens": 5371,
+      "total_temps_de_parole": 16068,
+      "antenne": 2519,
+      "total_temps_antenne": 18587
+    },
+    "FRANCE 3": {
+      "candidat": 790,
+      "soutiens": 2441,
+      "total_temps_de_parole": 3231,
+      "antenne": 1838,
+      "total_temps_antenne": 5069
+    },
+    "C+": {
+      "candidat": 1863,
+      "soutiens": 1089,
+      "total_temps_de_parole": 2952,
+      "antenne": 1054,
+      "total_temps_antenne": 4006
+    },
+    "FRANCE 5": {
+      "candidat": 3537,
+      "soutiens": 2652,
+      "total_temps_de_parole": 6189,
+      "antenne": 9092,
+      "total_temps_antenne": 15281
+    },
+    "M6": {
+      "candidat": 424,
+      "soutiens": 181,
+      "total_temps_de_parole": 605,
+      "antenne": 1082,
+      "total_temps_antenne": 1687
+    },
+    "C8": {
+      "candidat": 2059,
+      "soutiens": 376,
+      "total_temps_de_parole": 2435,
+      "antenne": 1590,
+      "total_temps_antenne": 4025
+    },
+    "TMC": {
+      "candidat": 292,
+      "soutiens": 973,
+      "total_temps_de_parole": 1265,
+      "antenne": 865,
+      "total_temps_antenne": 2130
+    },
+    "NT1": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 38,
+      "total_temps_antenne": 38
+    },
+    "FRANCEO": {
+      "candidat": 1165,
+      "soutiens": 2128,
+      "total_temps_de_parole": 3293,
+      "antenne": 383,
+      "total_temps_antenne": 3676
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 394,
+      "soutiens": 4030,
+      "total_temps_de_parole": 4424,
+      "antenne": 1712,
+      "total_temps_antenne": 6136
+    }
+  },
+  "JADOT YANNICK": {
+    "TF1": {
+      "candidat": 55,
+      "soutiens": 15,
+      "total_temps_de_parole": 70,
+      "antenne": 142,
+      "total_temps_antenne": 212
+    },
+    "FRANCE 2": {
+      "candidat": 632,
+      "soutiens": 0,
+      "total_temps_de_parole": 632,
+      "antenne": 41,
+      "total_temps_antenne": 673
+    },
+    "FRANCE 3": {
+      "candidat": 24,
+      "soutiens": 304,
+      "total_temps_de_parole": 328,
+      "antenne": 208,
+      "total_temps_antenne": 536
+    },
+    "C+": {
+      "candidat": 831,
+      "soutiens": 0,
+      "total_temps_de_parole": 831,
+      "antenne": 218,
+      "total_temps_antenne": 1049
+    },
+    "FRANCE 5": {
+      "candidat": 1449,
+      "soutiens": 198,
+      "total_temps_de_parole": 1647,
+      "antenne": 494,
+      "total_temps_antenne": 2141
+    },
+    "M6": {
+      "candidat": 64,
+      "soutiens": 20,
+      "total_temps_de_parole": 84,
+      "antenne": 108,
+      "total_temps_antenne": 192
+    },
+    "C8": {
+      "candidat": 40,
+      "soutiens": 0,
+      "total_temps_de_parole": 40,
+      "antenne": 2,
+      "total_temps_antenne": 42
+    },
+    "TMC": {
+      "candidat": 9,
+      "soutiens": 16,
+      "total_temps_de_parole": 25,
+      "antenne": 46,
+      "total_temps_antenne": 71
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 18,
+      "soutiens": 449,
+      "total_temps_de_parole": 467,
+      "antenne": 0,
+      "total_temps_antenne": 467
+    }
+  },
+  "JARDIN ALEXANDRE": {
+    "TF1": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 4,
+      "total_temps_antenne": 4
+    },
+    "FRANCE 2": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 10,
+      "total_temps_antenne": 10
+    },
+    "FRANCE 3": {
+      "candidat": 0,
+      "soutiens": 4,
+      "total_temps_de_parole": 4,
+      "antenne": 5,
+      "total_temps_antenne": 9
+    },
+    "C+": {
+      "candidat": 186,
+      "soutiens": 0,
+      "total_temps_de_parole": 186,
+      "antenne": 334,
+      "total_temps_antenne": 520
+    },
+    "FRANCE 5": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 45,
+      "total_temps_antenne": 45
+    },
+    "M6": {
+      "candidat": 16,
+      "soutiens": 0,
+      "total_temps_de_parole": 16,
+      "antenne": 18,
+      "total_temps_antenne": 34
+    },
+    "TMC": {
+      "candidat": 4,
+      "soutiens": 0,
+      "total_temps_de_parole": 4,
+      "antenne": 0,
+      "total_temps_antenne": 4
+    }
+  },
+  "LARROUTUROU PIERRE": {
+    "TF1": {
+      "candidat": 18,
+      "soutiens": 7,
+      "total_temps_de_parole": 25,
+      "antenne": 0,
+      "total_temps_antenne": 25
+    },
+    "FRANCE 2": {
+      "candidat": 445,
+      "soutiens": 0,
+      "total_temps_de_parole": 445,
+      "antenne": 22,
+      "total_temps_antenne": 467
+    },
+    "FRANCE 3": {
+      "candidat": 10,
+      "soutiens": 4,
+      "total_temps_de_parole": 14,
+      "antenne": 10,
+      "total_temps_antenne": 24
+    },
+    "FRANCE 5": {
+      "candidat": 446,
+      "soutiens": 0,
+      "total_temps_de_parole": 446,
+      "antenne": 111,
+      "total_temps_antenne": 557
+    },
+    "C8": {
+      "candidat": 12,
+      "soutiens": 0,
+      "total_temps_de_parole": 12,
+      "antenne": 0,
+      "total_temps_antenne": 12
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 24,
+      "soutiens": 16,
+      "total_temps_de_parole": 40,
+      "antenne": 80,
+      "total_temps_antenne": 120
+    }
+  },
+  "LASSALLE JEAN": {
+    "TF1": {
+      "candidat": 16,
+      "soutiens": 0,
+      "total_temps_de_parole": 16,
+      "antenne": 33,
+      "total_temps_antenne": 49
+    },
+    "FRANCE 2": {
+      "candidat": 13,
+      "soutiens": 0,
+      "total_temps_de_parole": 13,
+      "antenne": 0,
+      "total_temps_antenne": 13
+    },
+    "FRANCE 3": {
+      "candidat": 55,
+      "soutiens": 8,
+      "total_temps_de_parole": 63,
+      "antenne": 148,
+      "total_temps_antenne": 211
+    },
+    "C+": {
+      "candidat": 132,
+      "soutiens": 0,
+      "total_temps_de_parole": 132,
+      "antenne": 32,
+      "total_temps_antenne": 164
+    },
+    "FRANCE 5": {
+      "candidat": 33,
+      "soutiens": 0,
+      "total_temps_de_parole": 33,
+      "antenne": 0,
+      "total_temps_antenne": 33
+    },
+    "M6": {
+      "candidat": 13,
+      "soutiens": 0,
+      "total_temps_de_parole": 13,
+      "antenne": 41,
+      "total_temps_antenne": 54
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 511,
+      "soutiens": 0,
+      "total_temps_de_parole": 511,
+      "antenne": 0,
+      "total_temps_antenne": 511
+    }
+  },
+  "LE PEN MARINE": {
+    "TF1": {
+      "candidat": 1338,
+      "soutiens": 811,
+      "total_temps_de_parole": 2149,
+      "antenne": 1826,
+      "total_temps_antenne": 3975
+    },
+    "FRANCE 2": {
+      "candidat": 6086,
+      "soutiens": 3092,
+      "total_temps_de_parole": 9178,
+      "antenne": 2235,
+      "total_temps_antenne": 11413
+    },
+    "FRANCE 3": {
+      "candidat": 844,
+      "soutiens": 1571,
+      "total_temps_de_parole": 2415,
+      "antenne": 2203,
+      "total_temps_antenne": 4618
+    },
+    "C+": {
+      "candidat": 1692,
+      "soutiens": 1393,
+      "total_temps_de_parole": 3085,
+      "antenne": 1016,
+      "total_temps_antenne": 4101
+    },
+    "FRANCE 5": {
+      "candidat": 2370,
+      "soutiens": 3633,
+      "total_temps_de_parole": 6003,
+      "antenne": 24607,
+      "total_temps_antenne": 30610
+    },
+    "M6": {
+      "candidat": 440,
+      "soutiens": 144,
+      "total_temps_de_parole": 584,
+      "antenne": 1576,
+      "total_temps_antenne": 2160
+    },
+    "C8": {
+      "candidat": 2084,
+      "soutiens": 578,
+      "total_temps_de_parole": 2662,
+      "antenne": 3820,
+      "total_temps_antenne": 6482
+    },
+    "TMC": {
+      "candidat": 806,
+      "soutiens": 430,
+      "total_temps_de_parole": 1236,
+      "antenne": 3462,
+      "total_temps_antenne": 4698
+    },
+    "NT1": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 28,
+      "total_temps_antenne": 28
+    },
+    "FRANCEO": {
+      "candidat": 66,
+      "soutiens": 253,
+      "total_temps_de_parole": 319,
+      "antenne": 72,
+      "total_temps_antenne": 391
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 324,
+      "soutiens": 1774,
+      "total_temps_de_parole": 2098,
+      "antenne": 2444,
+      "total_temps_antenne": 4542
+    }
+  },
+  "MACRON EMMANUEL": {
+    "TF1": {
+      "candidat": 1831,
+      "soutiens": 370,
+      "total_temps_de_parole": 2201,
+      "antenne": 4992,
+      "total_temps_antenne": 7193
+    },
+    "FRANCE 2": {
+      "candidat": 3286,
+      "soutiens": 3641,
+      "total_temps_de_parole": 6927,
+      "antenne": 5855,
+      "total_temps_antenne": 12782
+    },
+    "FRANCE 3": {
+      "candidat": 1093,
+      "soutiens": 2465,
+      "total_temps_de_parole": 3558,
+      "antenne": 3085,
+      "total_temps_antenne": 6643
+    },
+    "C+": {
+      "candidat": 877,
+      "soutiens": 608,
+      "total_temps_de_parole": 1485,
+      "antenne": 1711,
+      "total_temps_antenne": 3196
+    },
+    "FRANCE 5": {
+      "candidat": 2339,
+      "soutiens": 3672,
+      "total_temps_de_parole": 6011,
+      "antenne": 35665,
+      "total_temps_antenne": 41676
+    },
+    "M6": {
+      "candidat": 340,
+      "soutiens": 185,
+      "total_temps_de_parole": 525,
+      "antenne": 1665,
+      "total_temps_antenne": 2190
+    },
+    "C8": {
+      "candidat": 702,
+      "soutiens": 264,
+      "total_temps_de_parole": 966,
+      "antenne": 5512,
+      "total_temps_antenne": 6478
+    },
+    "TMC": {
+      "candidat": 1066,
+      "soutiens": 287,
+      "total_temps_de_parole": 1353,
+      "antenne": 3153,
+      "total_temps_antenne": 4506
+    },
+    "NT1": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 44,
+      "total_temps_antenne": 44
+    },
+    "FRANCEO": {
+      "candidat": 49,
+      "soutiens": 588,
+      "total_temps_de_parole": 637,
+      "antenne": 144,
+      "total_temps_antenne": 781
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 360,
+      "soutiens": 1917,
+      "total_temps_de_parole": 2277,
+      "antenne": 3989,
+      "total_temps_antenne": 6266
+    }
+  },
+  "MELENCHON JEAN LUC": {
+    "TF1": {
+      "candidat": 1446,
+      "soutiens": 295,
+      "total_temps_de_parole": 1741,
+      "antenne": 723,
+      "total_temps_antenne": 2464
+    },
+    "FRANCE 2": {
+      "candidat": 9069,
+      "soutiens": 942,
+      "total_temps_de_parole": 10011,
+      "antenne": 1277,
+      "total_temps_antenne": 11288
+    },
+    "FRANCE 3": {
+      "candidat": 2467,
+      "soutiens": 200,
+      "total_temps_de_parole": 2667,
+      "antenne": 666,
+      "total_temps_antenne": 3333
+    },
+    "C+": {
+      "candidat": 536,
+      "soutiens": 114,
+      "total_temps_de_parole": 650,
+      "antenne": 480,
+      "total_temps_antenne": 1130
+    },
+    "FRANCE 5": {
+      "candidat": 1220,
+      "soutiens": 726,
+      "total_temps_de_parole": 1946,
+      "antenne": 6181,
+      "total_temps_antenne": 8127
+    },
+    "M6": {
+      "candidat": 125,
+      "soutiens": 39,
+      "total_temps_de_parole": 164,
+      "antenne": 460,
+      "total_temps_antenne": 624
+    },
+    "C8": {
+      "candidat": 316,
+      "soutiens": 0,
+      "total_temps_de_parole": 316,
+      "antenne": 591,
+      "total_temps_antenne": 907
+    },
+    "TMC": {
+      "candidat": 502,
+      "soutiens": 53,
+      "total_temps_de_parole": 555,
+      "antenne": 961,
+      "total_temps_antenne": 1516
+    },
+    "FRANCEO": {
+      "candidat": 0,
+      "soutiens": 29,
+      "total_temps_de_parole": 29,
+      "antenne": 30,
+      "total_temps_antenne": 59
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 234,
+      "soutiens": 1737,
+      "total_temps_de_parole": 1971,
+      "antenne": 191,
+      "total_temps_antenne": 2162
+    }
+  },
+  "POUTOU PHILIPPE": {
+    "TF1": {
+      "candidat": 21,
+      "soutiens": 0,
+      "total_temps_de_parole": 21,
+      "antenne": 26,
+      "total_temps_antenne": 47
+    },
+    "FRANCE 3": {
+      "candidat": 24,
+      "soutiens": 0,
+      "total_temps_de_parole": 24,
+      "antenne": 28,
+      "total_temps_antenne": 52
+    },
+    "C+": {
+      "candidat": 35,
+      "soutiens": 110,
+      "total_temps_de_parole": 145,
+      "antenne": 86,
+      "total_temps_antenne": 231
+    },
+    "FRANCE 5": {
+      "candidat": 39,
+      "soutiens": 750,
+      "total_temps_de_parole": 789,
+      "antenne": 106,
+      "total_temps_antenne": 895
+    },
+    "M6": {
+      "candidat": 32,
+      "soutiens": 0,
+      "total_temps_de_parole": 32,
+      "antenne": 31,
+      "total_temps_antenne": 63
+    },
+    "C8": {
+      "candidat": 87,
+      "soutiens": 16,
+      "total_temps_de_parole": 103,
+      "antenne": 363,
+      "total_temps_antenne": 466
+    },
+    "TMC": {
+      "candidat": 60,
+      "soutiens": 12,
+      "total_temps_de_parole": 72,
+      "antenne": 116,
+      "total_temps_antenne": 188
+    },
+    "RMC DECOUVERTE": {
+      "candidat": 565,
+      "soutiens": 0,
+      "total_temps_de_parole": 565,
+      "antenne": 32,
+      "total_temps_antenne": 597
+    }
+  },
+  "GUAINO HENRI": {
+    "FRANCE 2": {
+      "candidat": 609,
+      "soutiens": 0,
+      "total_temps_de_parole": 609,
+      "antenne": 0,
+      "total_temps_antenne": 609
+    },
+    "C+": {
+      "candidat": 17,
+      "soutiens": 0,
+      "total_temps_de_parole": 17,
+      "antenne": 2,
+      "total_temps_antenne": 19
+    },
+    "FRANCE 5": {
+      "candidat": 926,
+      "soutiens": 78,
+      "total_temps_de_parole": 1004,
+      "antenne": 216,
+      "total_temps_antenne": 1220
+    },
+    "M6": {
+      "candidat": 10,
+      "soutiens": 0,
+      "total_temps_de_parole": 10,
+      "antenne": 3,
+      "total_temps_antenne": 13
+    },
+    "C8": {
+      "candidat": 13,
+      "soutiens": 0,
+      "total_temps_de_parole": 13,
+      "antenne": 14,
+      "total_temps_antenne": 27
+    },
+    "TMC": {
+      "candidat": 64,
+      "soutiens": 0,
+      "total_temps_de_parole": 64,
+      "antenne": 8,
+      "total_temps_antenne": 72
+    }
+  },
+  "MARTINEZ JEAN CLAUDE": {
+    "FRANCE 2": {
+      "candidat": 182,
+      "soutiens": 0,
+      "total_temps_de_parole": 182,
+      "antenne": 0,
+      "total_temps_antenne": 182
+    }
+  },
+  "MARCHANDISE CHARLOTTE": {
+    "FRANCE 3": {
+      "candidat": 11,
+      "soutiens": 0,
+      "total_temps_de_parole": 11,
+      "antenne": 15,
+      "total_temps_antenne": 26
+    },
+    "FRANCE 5": {
+      "candidat": 87,
+      "soutiens": 0,
+      "total_temps_de_parole": 87,
+      "antenne": 93,
+      "total_temps_antenne": 180
+    }
+  },
+  "GUYOT STEPHANE": {
+    "FRANCE 5": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 60,
+      "total_temps_antenne": 60
+    }
+  },
+  "DE LESQUEN HENRY": {
+    "C8": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 2,
+      "total_temps_antenne": 2
+    }
+  },
+  "MORANDAIS JEAN": {
+    "FRANCEO": {
+      "candidat": 98,
+      "soutiens": 0,
+      "total_temps_de_parole": 98,
+      "antenne": 0,
+      "total_temps_antenne": 98
+    }
+  },
+  "VIGNE FRANCOIS": {
+    "RMC DECOUVERTE": {
+      "candidat": 33,
+      "soutiens": 0,
+      "total_temps_de_parole": 33,
+      "antenne": 15,
+      "total_temps_antenne": 48
+    }
+  }
+}
