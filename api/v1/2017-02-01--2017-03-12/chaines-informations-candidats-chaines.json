@@ -1,0 +1,594 @@
+{
+  "ALLIOT MARIE MICHELE": {
+    "BFM TV": {
+      "candidat": 674,
+      "soutiens": 0,
+      "total_temps_de_parole": 674,
+      "antenne": 0,
+      "total_temps_antenne": 674
+    },
+    "CNEWS": {
+      "candidat": 309,
+      "soutiens": 0,
+      "total_temps_de_parole": 309,
+      "antenne": 319,
+      "total_temps_antenne": 628
+    },
+    "LCI": {
+      "candidat": 873,
+      "soutiens": 0,
+      "total_temps_de_parole": 873,
+      "antenne": 19,
+      "total_temps_antenne": 892
+    },
+    "FRANCEINFO": {
+      "candidat": 1845,
+      "soutiens": 0,
+      "total_temps_de_parole": 1845,
+      "antenne": 59,
+      "total_temps_antenne": 1904
+    }
+  },
+  "ARTHAUD NATHALIE": {
+    "BFM TV": {
+      "candidat": 1054,
+      "soutiens": 130,
+      "total_temps_de_parole": 1184,
+      "antenne": 386,
+      "total_temps_antenne": 1570
+    },
+    "CNEWS": {
+      "candidat": 1062,
+      "soutiens": 21,
+      "total_temps_de_parole": 1083,
+      "antenne": 221,
+      "total_temps_antenne": 1304
+    },
+    "LCI": {
+      "candidat": 1444,
+      "soutiens": 33,
+      "total_temps_de_parole": 1477,
+      "antenne": 338,
+      "total_temps_antenne": 1815
+    },
+    "FRANCEINFO": {
+      "candidat": 989,
+      "soutiens": 1575,
+      "total_temps_de_parole": 2564,
+      "antenne": 1270,
+      "total_temps_antenne": 3834
+    }
+  },
+  "ASSELINEAU FRANCOIS": {
+    "BFM TV": {
+      "candidat": 1488,
+      "soutiens": 16,
+      "total_temps_de_parole": 1504,
+      "antenne": 1047,
+      "total_temps_antenne": 2551
+    },
+    "CNEWS": {
+      "candidat": 385,
+      "soutiens": 0,
+      "total_temps_de_parole": 385,
+      "antenne": 1085,
+      "total_temps_antenne": 1470
+    },
+    "LCI": {
+      "candidat": 307,
+      "soutiens": 0,
+      "total_temps_de_parole": 307,
+      "antenne": 940,
+      "total_temps_antenne": 1247
+    },
+    "FRANCEINFO": {
+      "candidat": 2596,
+      "soutiens": 0,
+      "total_temps_de_parole": 2596,
+      "antenne": 411,
+      "total_temps_antenne": 3007
+    }
+  },
+  "BAYROU FRANCOIS": {
+    "BFM TV": {
+      "candidat": 3674,
+      "soutiens": 157,
+      "total_temps_de_parole": 3831,
+      "antenne": 2733,
+      "total_temps_antenne": 6564
+    },
+    "CNEWS": {
+      "candidat": 972,
+      "soutiens": 818,
+      "total_temps_de_parole": 1790,
+      "antenne": 3190,
+      "total_temps_antenne": 4980
+    },
+    "LCI": {
+      "candidat": 4604,
+      "soutiens": 728,
+      "total_temps_de_parole": 5332,
+      "antenne": 10528,
+      "total_temps_antenne": 15860
+    }
+  },
+  "CHEMINADE JACQUES": {
+    "BFM TV": {
+      "candidat": 717,
+      "soutiens": 0,
+      "total_temps_de_parole": 717,
+      "antenne": 289,
+      "total_temps_antenne": 1006
+    },
+    "CNEWS": {
+      "candidat": 45,
+      "soutiens": 21,
+      "total_temps_de_parole": 66,
+      "antenne": 183,
+      "total_temps_antenne": 249
+    },
+    "LCI": {
+      "candidat": 1241,
+      "soutiens": 0,
+      "total_temps_de_parole": 1241,
+      "antenne": 75,
+      "total_temps_antenne": 1316
+    },
+    "FRANCEINFO": {
+      "candidat": 162,
+      "soutiens": 14,
+      "total_temps_de_parole": 176,
+      "antenne": 89,
+      "total_temps_antenne": 265
+    }
+  },
+  "DUPONT AIGNAN NICOLAS": {
+    "BFM TV": {
+      "candidat": 6237,
+      "soutiens": 0,
+      "total_temps_de_parole": 6237,
+      "antenne": 156,
+      "total_temps_antenne": 6393
+    },
+    "CNEWS": {
+      "candidat": 4420,
+      "soutiens": 1167,
+      "total_temps_de_parole": 5587,
+      "antenne": 1182,
+      "total_temps_antenne": 6769
+    },
+    "LCI": {
+      "candidat": 10259,
+      "soutiens": 2043,
+      "total_temps_de_parole": 12302,
+      "antenne": 1282,
+      "total_temps_antenne": 13584
+    },
+    "FRANCEINFO": {
+      "candidat": 2550,
+      "soutiens": 1054,
+      "total_temps_de_parole": 3604,
+      "antenne": 1804,
+      "total_temps_antenne": 5408
+    }
+  },
+  "FILLON FRANCOIS": {
+    "BFM TV": {
+      "candidat": 36709,
+      "soutiens": 89976,
+      "total_temps_de_parole": 126685,
+      "antenne": 188352,
+      "total_temps_antenne": 315037
+    },
+    "CNEWS": {
+      "candidat": 22503,
+      "soutiens": 59980,
+      "total_temps_de_parole": 82483,
+      "antenne": 151628,
+      "total_temps_antenne": 234111
+    },
+    "LCI": {
+      "candidat": 45310,
+      "soutiens": 94000,
+      "total_temps_de_parole": 139310,
+      "antenne": 195657,
+      "total_temps_antenne": 334967
+    },
+    "FRANCEINFO": {
+      "candidat": 24142,
+      "soutiens": 47711,
+      "total_temps_de_parole": 71853,
+      "antenne": 193870,
+      "total_temps_antenne": 265723
+    }
+  },
+  "GUAINO HENRI": {
+    "BFM TV": {
+      "candidat": 8137,
+      "soutiens": 0,
+      "total_temps_de_parole": 8137,
+      "antenne": 273,
+      "total_temps_antenne": 8410
+    },
+    "CNEWS": {
+      "candidat": 1411,
+      "soutiens": 0,
+      "total_temps_de_parole": 1411,
+      "antenne": 165,
+      "total_temps_antenne": 1576
+    },
+    "LCI": {
+      "candidat": 4269,
+      "soutiens": 0,
+      "total_temps_de_parole": 4269,
+      "antenne": 141,
+      "total_temps_antenne": 4410
+    },
+    "FRANCEINFO": {
+      "candidat": 4496,
+      "soutiens": 0,
+      "total_temps_de_parole": 4496,
+      "antenne": 0,
+      "total_temps_antenne": 4496
+    }
+  },
+  "HAMON BENOIT": {
+    "BFM TV": {
+      "candidat": 35619,
+      "soutiens": 66667,
+      "total_temps_de_parole": 102286,
+      "antenne": 55499,
+      "total_temps_antenne": 157785
+    },
+    "CNEWS": {
+      "candidat": 33620,
+      "soutiens": 30678,
+      "total_temps_de_parole": 64298,
+      "antenne": 37008,
+      "total_temps_antenne": 101306
+    },
+    "LCI": {
+      "candidat": 60268,
+      "soutiens": 34994,
+      "total_temps_de_parole": 95262,
+      "antenne": 44257,
+      "total_temps_antenne": 139519
+    },
+    "FRANCEINFO": {
+      "candidat": 18060,
+      "soutiens": 22787,
+      "total_temps_de_parole": 40847,
+      "antenne": 25271,
+      "total_temps_antenne": 66118
+    }
+  },
+  "JADOT YANNICK": {
+    "BFM TV": {
+      "candidat": 4921,
+      "soutiens": 425,
+      "total_temps_de_parole": 5346,
+      "antenne": 165,
+      "total_temps_antenne": 5511
+    },
+    "CNEWS": {
+      "candidat": 2371,
+      "soutiens": 676,
+      "total_temps_de_parole": 3047,
+      "antenne": 224,
+      "total_temps_antenne": 3271
+    },
+    "LCI": {
+      "candidat": 1455,
+      "soutiens": 6126,
+      "total_temps_de_parole": 7581,
+      "antenne": 1612,
+      "total_temps_antenne": 9193
+    },
+    "FRANCEINFO": {
+      "candidat": 2176,
+      "soutiens": 1746,
+      "total_temps_de_parole": 3922,
+      "antenne": 1310,
+      "total_temps_antenne": 5232
+    }
+  },
+  "JARDIN ALEXANDRE": {
+    "BFM TV": {
+      "candidat": 1280,
+      "soutiens": 0,
+      "total_temps_de_parole": 1280,
+      "antenne": 175,
+      "total_temps_antenne": 1455
+    },
+    "CNEWS": {
+      "candidat": 2193,
+      "soutiens": 0,
+      "total_temps_de_parole": 2193,
+      "antenne": 60,
+      "total_temps_antenne": 2253
+    },
+    "LCI": {
+      "candidat": 936,
+      "soutiens": 0,
+      "total_temps_de_parole": 936,
+      "antenne": 50,
+      "total_temps_antenne": 986
+    },
+    "FRANCEINFO": {
+      "candidat": 999,
+      "soutiens": 122,
+      "total_temps_de_parole": 1121,
+      "antenne": 239,
+      "total_temps_antenne": 1360
+    }
+  },
+  "LARROUTUROU PIERRE": {
+    "BFM TV": {
+      "candidat": 789,
+      "soutiens": 0,
+      "total_temps_de_parole": 789,
+      "antenne": 7,
+      "total_temps_antenne": 796
+    },
+    "CNEWS": {
+      "candidat": 184,
+      "soutiens": 0,
+      "total_temps_de_parole": 184,
+      "antenne": 30,
+      "total_temps_antenne": 214
+    },
+    "LCI": {
+      "candidat": 893,
+      "soutiens": 17,
+      "total_temps_de_parole": 910,
+      "antenne": 23,
+      "total_temps_antenne": 933
+    },
+    "FRANCEINFO": {
+      "candidat": 412,
+      "soutiens": 0,
+      "total_temps_de_parole": 412,
+      "antenne": 163,
+      "total_temps_antenne": 575
+    }
+  },
+  "LASSALLE JEAN": {
+    "BFM TV": {
+      "candidat": 967,
+      "soutiens": 0,
+      "total_temps_de_parole": 967,
+      "antenne": 70,
+      "total_temps_antenne": 1037
+    },
+    "CNEWS": {
+      "candidat": 1412,
+      "soutiens": 0,
+      "total_temps_de_parole": 1412,
+      "antenne": 19,
+      "total_temps_antenne": 1431
+    },
+    "LCI": {
+      "candidat": 810,
+      "soutiens": 0,
+      "total_temps_de_parole": 810,
+      "antenne": 23,
+      "total_temps_antenne": 833
+    },
+    "FRANCEINFO": {
+      "candidat": 2037,
+      "soutiens": 0,
+      "total_temps_de_parole": 2037,
+      "antenne": 13,
+      "total_temps_antenne": 2050
+    }
+  },
+  "LE PEN MARINE": {
+    "BFM TV": {
+      "candidat": 36342,
+      "soutiens": 48432,
+      "total_temps_de_parole": 84774,
+      "antenne": 59449,
+      "total_temps_antenne": 144223
+    },
+    "CNEWS": {
+      "candidat": 24402,
+      "soutiens": 19731,
+      "total_temps_de_parole": 44133,
+      "antenne": 43220,
+      "total_temps_antenne": 87353
+    },
+    "LCI": {
+      "candidat": 60732,
+      "soutiens": 67897,
+      "total_temps_de_parole": 128629,
+      "antenne": 75229,
+      "total_temps_antenne": 203858
+    },
+    "FRANCEINFO": {
+      "candidat": 13998,
+      "soutiens": 9048,
+      "total_temps_de_parole": 23046,
+      "antenne": 58680,
+      "total_temps_antenne": 81726
+    }
+  },
+  "MACRON EMMANUEL": {
+    "BFM TV": {
+      "candidat": 40670,
+      "soutiens": 40573,
+      "total_temps_de_parole": 81243,
+      "antenne": 75343,
+      "total_temps_antenne": 156586
+    },
+    "CNEWS": {
+      "candidat": 22757,
+      "soutiens": 33407,
+      "total_temps_de_parole": 56164,
+      "antenne": 55598,
+      "total_temps_antenne": 111762
+    },
+    "LCI": {
+      "candidat": 69893,
+      "soutiens": 52996,
+      "total_temps_de_parole": 122889,
+      "antenne": 127393,
+      "total_temps_antenne": 250282
+    },
+    "FRANCEINFO": {
+      "candidat": 18954,
+      "soutiens": 21584,
+      "total_temps_de_parole": 40538,
+      "antenne": 54629,
+      "total_temps_antenne": 95167
+    }
+  },
+  "MARCHANDISE CHARLOTTE": {
+    "BFM TV": {
+      "candidat": 726,
+      "soutiens": 157,
+      "total_temps_de_parole": 883,
+      "antenne": 883,
+      "total_temps_antenne": 1766
+    },
+    "CNEWS": {
+      "candidat": 0,
+      "soutiens": 0,
+      "total_temps_de_parole": 0,
+      "antenne": 30,
+      "total_temps_antenne": 30
+    },
+    "LCI": {
+      "candidat": 429,
+      "soutiens": 0,
+      "total_temps_de_parole": 429,
+      "antenne": 1,
+      "total_temps_antenne": 430
+    },
+    "FRANCEINFO": {
+      "candidat": 3207,
+      "soutiens": 0,
+      "total_temps_de_parole": 3207,
+      "antenne": 14,
+      "total_temps_antenne": 3221
+    }
+  },
+  "MELENCHON JEAN LUC": {
+    "BFM TV": {
+      "candidat": 26753,
+      "soutiens": 20272,
+      "total_temps_de_parole": 47025,
+      "antenne": 15543,
+      "total_temps_antenne": 62568
+    },
+    "CNEWS": {
+      "candidat": 8860,
+      "soutiens": 8394,
+      "total_temps_de_parole": 17254,
+      "antenne": 15845,
+      "total_temps_antenne": 33099
+    },
+    "LCI": {
+      "candidat": 43816,
+      "soutiens": 23652,
+      "total_temps_de_parole": 67468,
+      "antenne": 15683,
+      "total_temps_antenne": 83151
+    },
+    "FRANCEINFO": {
+      "candidat": 9195,
+      "soutiens": 7725,
+      "total_temps_de_parole": 16920,
+      "antenne": 9296,
+      "total_temps_antenne": 26216
+    }
+  },
+  "POUTOU PHILIPPE": {
+    "BFM TV": {
+      "candidat": 3916,
+      "soutiens": 541,
+      "total_temps_de_parole": 4457,
+      "antenne": 1785,
+      "total_temps_antenne": 6242
+    },
+    "CNEWS": {
+      "candidat": 1303,
+      "soutiens": 37,
+      "total_temps_de_parole": 1340,
+      "antenne": 342,
+      "total_temps_antenne": 1682
+    },
+    "LCI": {
+      "candidat": 956,
+      "soutiens": 0,
+      "total_temps_de_parole": 956,
+      "antenne": 453,
+      "total_temps_antenne": 1409
+    },
+    "FRANCEINFO": {
+      "candidat": 3323,
+      "soutiens": 1482,
+      "total_temps_de_parole": 4805,
+      "antenne": 577,
+      "total_temps_antenne": 5382
+    }
+  },
+  "TROADEC CHRISTIAN": {
+    "BFM TV": {
+      "candidat": 196,
+      "soutiens": 0,
+      "total_temps_de_parole": 196,
+      "antenne": 0,
+      "total_temps_antenne": 196
+    },
+    "CNEWS": {
+      "candidat": 244,
+      "soutiens": 0,
+      "total_temps_de_parole": 244,
+      "antenne": 30,
+      "total_temps_antenne": 274
+    },
+    "LCI": {
+      "candidat": 9,
+      "soutiens": 0,
+      "total_temps_de_parole": 9,
+      "antenne": 12,
+      "total_temps_antenne": 21
+    }
+  },
+  "VELTZ BENOIT": {
+    "BFM TV": {
+      "candidat": 183,
+      "soutiens": 0,
+      "total_temps_de_parole": 183,
+      "antenne": 301,
+      "total_temps_antenne": 484
+    }
+  },
+  "FAUDOT BASTIEN": {
+    "CNEWS": {
+      "candidat": 455,
+      "soutiens": 0,
+      "total_temps_de_parole": 455,
+      "antenne": 0,
+      "total_temps_antenne": 455
+    }
+  },
+  "VIGNE FRANCOIS": {
+    "CNEWS": {
+      "candidat": 410,
+      "soutiens": 0,
+      "total_temps_de_parole": 410,
+      "antenne": 0,
+      "total_temps_antenne": 410
+    }
+  },
+  "SMATI RAFIK": {
+    "FRANCEINFO": {
+      "candidat": 331,
+      "soutiens": 0,
+      "total_temps_de_parole": 331,
+      "antenne": 0,
+      "total_temps_antenne": 331
+    }
+  }
+}
