@@ -71,8 +71,11 @@
       </div>
       <!-- /.container-fluid -->
     </nav>
-    
+    {% if page.url == "/" %}
+    <header  class="full" >
+    {% else %}
     <header>
+    {% endif %}
       <div class="header-content">
         <div class="header-content-inner">
           <h1 id="homeHeading"> {{page.title}} </h1>
