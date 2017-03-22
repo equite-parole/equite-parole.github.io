@@ -80,9 +80,9 @@
           <p> {{page.subtitle}} </p>
           
           {% if page.url == "/" %}
-            <a href="#more" class="btn btn-primary btn-xl page-scroll">En savoir plus</a>
+            <a href="#more" class="btn btn-primary btn-xl page-scroll"> En savoir plus </a>
           {% else %}
-            <a href="#content" class="btn btn-primary btn-xl page-scroll">En savoir plus</a>
+            <a href="#content" class="btn btn-primary btn-xl page-scroll">{{page.buttonText}}</a>
           {% endif %}
         
         </div>
