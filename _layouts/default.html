@@ -86,8 +86,8 @@
           <p> {{page.subtitle}} </p>
           
           {% if page.url == "/" %}
-          <a href="#content" class="btn btn-default btn-xl sr-button">Voir le graphique</a> &nbsp;&nbsp;
-          <a href="/json-api/" class="btn btn-default btn-xl sr-button">Nos données</a>
+          <a href="#content" class="btn btn-default btn-xl page-scroll">Voir le graphique</a> &nbsp;&nbsp;
+          <a href="/json-api/" class="btn btn-default btn-xl page-scroll">Nos données</a>
           {% endif %}
 
         
@@ -96,7 +96,8 @@
     </header>
     
     {% if page.url == "/" %}
-    
+      
+      <!--
     <section class="bg-primary" id="more">
       <div class="container">
         <div class="row">
@@ -109,6 +110,7 @@
         </div>
       </div>
     </section>
+    -->
     
     {% endif %}
     
