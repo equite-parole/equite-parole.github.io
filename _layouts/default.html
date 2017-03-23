@@ -83,31 +83,19 @@
           <p> {{page.subtitle}} </p>
           
           {% if page.url == "/" %}
-            <a href="#more" class="btn btn-primary btn-xl page-scroll"> En savoir plus </a>
+          <p class="text-faded">
+            <strong>Équité :</strong> <em>Qualité consistant à attribuer à chacun ce qui lui est dû par référence aux principes de la justice naturelle ; impartialité
+              <a target="_blank" href="http://www.larousse.fr/dictionnaires/francais/%C3%A9quit%C3%A9/30712?q=%C3%A9quit%C3%A9#30627"> (Dictionnaire Larousse )</a>
+            </em>
+          </p>
+          <a href="#content" class="page-scroll btn btn-default btn-xl sr-button">Voir le graphique</a> &nbsp;&nbsp;
+          <a href="/json-api/" class="page-scroll btn btn-default btn-xl sr-button">Nos données</a>
           {% endif %}
 
         
         </div>
       </div>
     </header>
-    
-    {% if page.url == "/" %}
-    
-    <section class="bg-primary" id="more">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="section-heading">Équité de temps de parole</h2>
-            <hr class="light">
-            <p class="text-faded"><em>Équité : Qualité consistant à attribuer à chacun ce qui lui est dû par référence aux principes de la justice naturelle ; impartialité <a target="_blank" href="http://www.larousse.fr/dictionnaires/francais/%C3%A9quit%C3%A9/30712?q=%C3%A9quit%C3%A9#30627"> ( le Larousse )</a></em></p>
-            <a href="#content" class="page-scroll btn btn-default btn-xl sr-button">Voir le graphique</a>
-            <a href="/json-api/" class="page-scroll btn btn-default btn-xl sr-button">Nos données</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    {% endif %}
     
     <section class="" id="content">
       <div class="container">
